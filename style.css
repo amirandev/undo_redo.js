@@ -1,0 +1,33 @@
+*{
+            box-sizing: border-box;
+            max-width: 100%;
+        }
+        html,body{
+            background: #f8f9fa;
+        }
+        
+        .container{
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+        }
+        
+        .undoredoPanel{
+            background: #f2f2f2;
+            padding: 5px;
+        }
+        
+        .undoredoPanel > *{
+            background: #fff;
+            padding: 5px 10px;
+            border: none;
+        }
+        
+        textarea{
+            border: 1px solid #f2f2f2;
+            padding: 10px;
+        }
+        
+        .wrapanywhere{
+            word-wrap: anywhere;
+        }
